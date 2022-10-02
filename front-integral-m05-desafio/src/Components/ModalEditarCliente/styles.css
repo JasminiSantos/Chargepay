@@ -1,0 +1,128 @@
+.modalEditarCliente {
+  display: flex; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  right: 0;
+  top: 0;
+  width: 90vw; /* Full width */
+  height: 100vh; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background: rgba(145, 154, 150, 0.3);
+  backdrop-filter: blur(4px);
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.modal-Content {
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 80px 20px 40px;
+  width: 45.05%;
+  border-radius: 30px;
+  margin-top: -18px;
+}
+
+.close {
+  width: 18.67px;
+  height: 17.32px;
+  position: absolute;
+  top: 6%;
+  right: 30%;
+  cursor: pointer;
+}
+
+.headModal {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.boxModalEditarCliente {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.boxModalEditarCliente input{
+  width: 100%;
+  height: 10px;
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  padding: 10px 14px;
+  outline: none;
+}
+
+
+.multiBoxModalEditarCliente {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.grow-1 input {
+  width: 100%;
+}
+
+.grow-3 {
+  width: 50%;
+}
+
+.grow-2 {
+  width: 90%;
+}
+
+.boxButtons {
+  display: flex;
+  width: 106%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  text-align: center;
+  gap: 20px
+}
+
+.boxButtons button,
+.boxButtons input {
+  padding: 4px 81.5px;
+  width: 240px;
+  border-radius: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.boxButtons button {
+  background: #DA0175;
+  color: #F8F8F9;
+  border: 0;
+}
+
+.button-cancel {
+  background: #F8F8F9;
+  border: 1px solid #DEDEE9;
+  color: #0E8750;
+  cursor: pointer;
+}
+.required {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #E70000;
+}

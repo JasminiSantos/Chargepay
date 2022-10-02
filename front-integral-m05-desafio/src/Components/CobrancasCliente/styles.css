@@ -1,0 +1,15 @@
+.container__cobrancas {
+    background-color: #FFF;
+
+    margin-top: 10vh;
+    padding: 25px;
+    border-radius: 30px;
+}
+
+.btn__add-cobranca {
+    background-color: #DA0175;
+    color: #F8F8F9;
+    border-radius: 10px;
+
+    padding: 4px 56px;
+}

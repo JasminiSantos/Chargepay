@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Nunito&display=swap');
+
+.backdrop {
+    position: fixed;
+    left: 9vw;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+}
+
+.modal__container {
+    background: #FFFFFF;
+    border-radius: 30px;
+    filter: drop-shadow(0px 4px 42px rgba(0, 0, 0, 0.2));
+
+    width: 40vw;
+    height: 50vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal__close {
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+}
+
+.modal__image img {
+    width: 12vw;
+}
+
+.modal__alert {
+    margin-bottom: 1rem;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6rem;
+
+    color: #CC7800;
+}
+
+.modal__buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn__excluir, .modal__close {
+    cursor: pointer;
+}
+
+.btn__excluir {
+    padding: 0 32px;
+    border-radius: 4px;
+    font-family: 'Nunito', sans-serif;
+    transition: 0.5s;
+}
+
+.btn__excluir:hover {
+    filter: brightness(0.9);
+}
+
+.--nao {
+    background-color: #F2D6D0;
+    color: #AE1100;
+}
+
+.--sim {
+    background-color: #ACD9C5;
+    color: #034A2A;
+}

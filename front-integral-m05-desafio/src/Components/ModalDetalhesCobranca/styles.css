@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Nunito:wght@400;600;700&display=swap');
+
+input, textarea {
+    all: unset;
+}
+
+.backdrop {
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+
+    position: fixed;
+    left: 9vw;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__container {
+    background: #FFFFFF;
+    color: #3F3F55;
+    border-radius: 30px;
+
+    font-family: 'Nunito', sans-serif;
+
+    width: 40vw;
+    height: 70vh !important;
+    padding: 40px 50px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.modal__close {
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+
+    cursor: pointer;
+}
+
+.modal__header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.modal__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.modal__field, .modal__two-fields {
+    width: 100%;
+    display: flex;
+}
+
+.modal__field {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.modal__label {
+    font-weight: 700;
+}
+
+.modal__input {
+    text-align: initial;
+    width: 100%;
+}
+
+.input__description {
+    height: 10vh;
+    text-overflow: ellipsis;
+    resize: none;
+}
+
+.input__status {
+    font-weight: 600;
+}
+
+textarea::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+textarea::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #a9a9a9;
+    border-radius: 5px;
+}
+
+.paga {
+    background-color: #EEF6F6;
+  }
+  
+  .vencida {
+    background-color: #FFEFEF;
+  }
+  
+  .prevista {
+    background-color: #FCF6DC;
+  }

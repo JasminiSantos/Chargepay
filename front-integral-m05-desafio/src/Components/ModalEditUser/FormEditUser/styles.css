@@ -1,0 +1,50 @@
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    margin-bottom: -5px;
+    max-height: 15vh;
+}
+
+.form__fieldsContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.form__submitButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__button {
+    all: unset;
+    cursor: pointer;
+    transition: 0.5s;
+
+    background-color: #DA0175;
+    color: #F8F8F9;
+
+    border-radius: 10px;
+    padding: 4px 51px;
+
+    font-size: 18px;
+    font-weight: 400;
+
+    margin-top: 20px;
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.form__button:hover {
+    filter: brightness(0.85);
+}

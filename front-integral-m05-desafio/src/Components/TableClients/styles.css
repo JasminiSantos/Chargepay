@@ -1,0 +1,189 @@
+.container-table {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 23px;
+    width: 1120px;
+}
+
+.table-clients {
+    display: flex;
+    background-color: #FFF;
+    padding: 12px 23px;
+    width: 1000px;
+    border-radius: 30px;
+
+
+}
+
+.container-table2 span {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.container-table2 header {
+    padding: 18px 24px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #3F3F55;
+}
+
+.table-clientes-title {
+    padding: 8px 0 8px 25px;
+    border-bottom: 1px solid #EFF0F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 50px;
+    gap: 72px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #3F3F55;
+
+
+}
+
+.table-cobrancas2-title {
+    display: flex;
+    align-items: center;
+    gap: 82px;
+    padding: 0px;
+
+    position: static;
+    width: 954px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #3F3F55;
+}
+
+.table-cobrancas2-title-cell {
+    text-align: left;
+}
+
+.dataVenc {
+    white-space: nowrap;
+
+    
+}
+
+.descricao {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.descricao:hover {
+    overflow: visible;
+}
+
+.valor {
+    white-space: nowrap;
+    
+
+}
+
+.container-table2 .table-line {
+    padding: 8px 0 8px 50;
+    border-bottom: 1px solid #f6f1ef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* line-height: 40px; */
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6E6E85;
+}
+
+.container-table2 .line-cell {
+    width: 75px;
+
+    text-align: left;
+}
+
+.vencida {
+    color: #971D1D;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+
+    width: 67px;
+    height: 19px;
+
+    background: #FFEFEF;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.pendente {
+    color: #C5A605;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+
+    width: 75px;
+    height: 19px;
+
+    background: #FCF6DC;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.paga {
+    color: #1FA7AF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+
+    width: 55px;
+    height: 19px;
+
+    background: #EEF6F6;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.descricao {
+    max-width: 12em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.line-cell {
+    cursor: pointer;
+}
+

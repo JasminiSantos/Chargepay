@@ -1,0 +1,60 @@
+.card-resumo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 23px 40px;
+  width: 360px;
+  height: 111px;
+  left: 0px;
+  top: 0px;
+  border-radius: 30px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #3F3F55;
+}
+
+.card-resumo h3 {
+  font-size: 18px;
+}
+
+.card-resumo strong {
+  font-size: 24px;
+}
+
+.valorResumoCobranca {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.dadosCobranca {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 20px;
+  position: static;
+  width: 236.08px;
+  height: 65px;
+  left: 40px;
+  top: 23px;
+  display: flex;
+  align-items: center;
+}
+
+.pagas {
+  background-color: #EEF6F6;
+}
+
+.vencidas {
+  background-color: #FFEFEF;
+}
+
+.previstas {
+  background-color: #FCF6DC;
+}

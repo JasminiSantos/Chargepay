@@ -1,0 +1,59 @@
+.container__dados {
+    background-color:#FFF;
+
+    padding: 25px;
+
+    border-radius: 30px;
+}
+
+.container__header, .dados {
+    display: flex;
+    align-items: center;
+    
+    width: 85vw;
+}
+
+.dados__pessoais {
+    margin-bottom: 50px;
+}
+
+.header__title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container__header {
+    justify-content: space-between;
+}
+
+.header__title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn__edit-client {
+    background-color: #F8F8F9;
+    color: #0E8750;
+
+    border: 1px solid #DEDEE9;
+    border-radius: 10px;
+
+    font-size: 18px;
+
+    padding: 4px 60px;
+
+    display: flex;
+    align-items: center;
+}
+
+.dados__field {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+
+    min-width: 16vw;
+}
+
+.dados__field h3, .dados__field p {
+    font-size: 16px;
+}

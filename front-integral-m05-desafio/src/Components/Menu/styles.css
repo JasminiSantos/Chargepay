@@ -1,0 +1,53 @@
+.container-menu {
+  height: 100vh;
+  width: 8vw;
+
+  background-color: #F0F0F5;
+
+  padding-top: 54px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+
+  gap: 80px;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.container-menu button {
+  all: unset;
+
+  width: 108px;
+  height: 74px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #343447;
+
+  cursor: pointer;
+}
+
+.container-menu button:hover {
+  width: 108px;
+
+  background-color:rgba(128, 128, 128, .1);
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  border-right: 3px solid #DA0175;
+}
+
+.container-menu img {
+  width: 48px;
+  height: 48px;
+}

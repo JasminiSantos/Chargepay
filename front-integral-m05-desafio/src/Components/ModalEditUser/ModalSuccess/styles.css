@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@700&display=swap');
+
+.backdrop__success {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__container {
+    width: 40vw;
+    height: 50vh;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center !important;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal__image {
+    margin-bottom: 24px;
+}
+
+.modal__message {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: center;
+
+    color: #343447;
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;600&family=Nunito:wght@400;600;700&display=swap');
+
+.modal-title{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: #3F3F55; 
+}
+.modal-background{
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    height: 100vh;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+    overflow: auto;
+}
+.modal {
+    margin: 65px 0;
+    background: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    padding: 50px;
+}
+.close-icon {
+    align-self: flex-end;
+    cursor: pointer;
+}
+.icon-text{
+    display: flex;
+}
+.icon-text img {
+    margin-right: 13px;
+}
+label{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3F3F55;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 16px;
+    
+}
+.label-input {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.cpf-telefone-section, .cep-bairro-section, .cidade-uf-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 16px;
+}
+.cpf-section, .cep-section, .cidade-section{
+    margin-right: 35px;
+}
+.modal-buttons {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.buttons {
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    width: 180px;
+    padding: 5px 0;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#cancel-button{
+    background: #F8F8F9;
+    border: 1px solid #DEDEE9;
+    color: #0E8750;
+    margin-right: 32px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#submit-button{
+    background: #DA0175;
+    color: #F8F8F9;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.required {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #E70000;
+    display: flex;
+    text-align: left;
+    margin-top: 10px;
+}

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+.container-forms {
+  display: flex;
+  flex-direction: column;
+  padding: 64px;
+  justify-content: center;
+  align-items: center;
+  width: 65vw;
+}
+
+.container-forms input {
+  outline: none;
+}
+
+.container-forms h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+  margin-bottom: 32px;
+}
+
+.container-forms a {
+  color: #DA0175;
+  text-decoration: underline;
+}
+
+.lines {
+  height: 100%;
+  max-height: 20px;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  justify-content: center;
+}
+
+.lines img {
+  width: 100%;
+  max-width: 82px;
+  height: 100%;
+  max-height: 6px;
+  position: relative;
+  top: 120px;
+}
+
+.boxInput {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 344px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 6px 0;
+}
+
+.boxInput input {
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.input-senha input {
+  padding: 5px 14px;
+}
+
+.boxInput img {
+  position: absolute;
+  width: 100%;
+  max-width: 20px;
+  height: 100%;
+  max-height: 18px;
+  top: 52px;
+  left: 19.6pc;
+  cursor: pointer;
+}
+
+.buttonPinkNext {
+  margin-top: 46px;
+  margin-bottom: 15px;
+  background-color: #DA0175;
+  border: 0;
+  color: #FFFFFF;  
+  height: 33px;
+  width: 160px;
+  border-radius: 10px;
+  padding: 4px, 40px, 4px, 40px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+
+.error {
+  border: 1px solid red !important
+}
+
+.spanError {
+  color: red;
+}
+
+.boxStage img {
+  width: 100%;
+  height: 100%;
+  max-width: 104px;
+  max-height: 104px;
+} 
+
+.boxStage {
+  position: relative;
+  background-color: #F0F0F5;
+  width: 600px;
+  height: 512px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxStage h1 {
+  margin-top: 26px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+}
+
+.linesStage {
+  height: 100%;
+  max-height: 20px;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  justify-content: center;
+}
+
+.linesStage img {
+  width: 100%;
+  max-width: 82px;
+  height: 100%;
+  max-height: 6px;
+  position: relative;
+  top: 80px;
+}
+
+.buttonPinkStage3 {
+  margin-top: 46px;
+  margin-bottom: 15px;
+  background-color: #DA0175;
+  border: 0;
+  color: #FFFFFF;  
+  height: 33px;
+  width: 160px;
+  border-radius: 10px;
+  padding: 4px, 40px, 4px, 40px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  position: absolute;
+  bottom: -70px;
+  cursor: pointer;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonBox button {
+  padding-top: 5px;
+}
+
+.form__footer {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}

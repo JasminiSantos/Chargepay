@@ -1,0 +1,88 @@
+.container-head {
+  width: 1070px;
+  height: 112px;
+
+  margin-bottom: 20px;
+
+  padding: 28px 12px 0 50px;
+
+  border-bottom: 1px solid #ACD9C5;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-head h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.head-direita {
+  margin-top: -10px;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+
+  gap: 16px;
+}
+
+.icon-user {
+  background-color: #DEDEE9;
+  border-radius: 50%;
+}
+
+.head-direita span {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size:px 18px;
+  color: #0E8750;
+}
+
+.head-direita .arrow-down {
+  cursor: pointer;
+}
+
+.backdrop-head {
+  position: absolute;
+  inset: 0;
+  background-color: #ffffff00;
+}
+
+.modal-head {
+  width: 105px;
+  height: 60px;
+
+  background-color: #FFF;
+
+  padding: 15px 10px;
+
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  position:absolute;
+  top: 45px;
+  right: -35px;
+}
+
+.modal-head button {
+  all: unset;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 8px;
+  color: #747488;
+
+  gap: 3px;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.table__header {
+    display: flex;
+    align-items: center;
+
+    margin: 30px 0;
+}
+
+.column__title {
+    display: flex;
+    align-items: center;
+
+    min-width: 10vw;
+    margin-right: 50px;
+
+    font-size: 16px;
+    font-weight: 700;
+}

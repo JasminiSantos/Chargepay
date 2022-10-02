@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
+.table2 {
+    width: 1000px;
+    
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    border-radius: 30px;
+    background: #FFFFFF;
+    padding: 30px 20px;
+}
+
+.table2 .table-head {
+    width: 100%;
+
+    padding-bottom: 12px;
+    border-bottom: 1px solid #EFF0F6;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    color: #3F3F55;
+    cursor: auto;
+}
+
+.table2 .table-head-cell, .table2 .table-line-cell {
+    width: 140px;
+
+    text-align: left;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table2 .table-line {
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #EFF0F6;
+}
+
+.table2 .true {
+    color: #1FA7AF;
+    background: #EEF6F6;
+    width: 100px;
+    border-radius: 8px;
+    padding: 0px 12px 0px 12px;
+}
+
+.table2 .false {
+    color: #971D1D;
+    background: #FFEFEF;
+    width: 100px;
+    border-radius: 8px;
+    padding: 0px 12px 0px 12px;
+}
+
+.false,
+.true {
+    font-weight: 600;
+}
+
+.table2 .table-button {
+    all: unset;
+}
+
+.table2 .table-button img {
+    cursor: pointer;
+}
+
+.table-line-cell {
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+}

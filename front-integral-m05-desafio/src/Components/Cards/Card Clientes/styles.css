@@ -1,0 +1,129 @@
+.container-card-clientes {
+  background-color: #FFF;
+  width: 556px;
+
+  padding-bottom: 55px;
+  border-radius: 30px;
+
+  box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+
+  position: relative;
+}
+
+.container-card-clientes header {
+  padding: 18px 24px 16px;
+
+  border-bottom: 1px solid #EFF0F6;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 8px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #3F3F55;
+}
+
+.esquerda-header {
+  display: flex;
+  gap: 13px;
+}
+
+.container-card-clientes header span {
+  padding: 2px 15px;
+  border-radius: 8px;
+}
+
+.container-card-clientes .inadimplentes {
+  background: #FFEFEF;
+  color: #971D1D;
+}
+
+.container-card-clientes .emDia {
+  background: #EEF6F6;
+  color: #1FA7AF;
+}
+
+
+.container-card-clientes a {
+  text-decoration: underline;
+  color: #DA0175;
+}
+
+.container-card-clientes .table-clientes-title {
+
+  padding: 8px 50px 8px 25px;
+  border-bottom: 1px solid #EFF0F6;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  
+  line-height: 50px;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #3F3F55;
+}
+
+.table-clientes-title-cell {
+  text-align: left;
+}
+
+.inadimplentes {
+  background-color: #FFEFEF;
+  color: #971D1D;
+}
+
+.em-dia {
+  background-color: #EEF6F6;
+  color: #1FA7AF;
+}
+
+.container-card-clientes .table-line {
+  padding: 8px 14px 8px 25px;
+  border-bottom: 1px solid #EFF0F6;
+
+  display: flex;
+
+  line-height: 40px;
+
+  gap: 55px;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6E6E85;
+}
+
+.container-card-clientes .cliente {
+  width: 160px;
+}
+
+.container-card-clientes .vencimento {
+  width: 132px;
+}
+
+.container-card-clientes .valor {
+  width: 93px;
+}
+
+.line-cell {
+  text-align: left;
+}
+
+.container-card-clientes footer {
+  width: 556px;
+  padding: 13px 141px;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+
+  position: absolute;
+  bottom: 5px
+}

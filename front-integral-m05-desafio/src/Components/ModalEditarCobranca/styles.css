@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.backdrop-modal-edicao-cobranca {
+  position: fixed;
+  left: 9vw;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  background-color: rgba(145, 154, 150, 0.3);
+  color: #3F3F55;
+  backdrop-filter: blur(4px);
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-modal-edicao-cobranca {
+  background-color: #FFF;
+
+  padding: 30px 58px 25px;
+  border-radius: 30px;
+
+  text-align: left;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulo-modal {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 24px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.fechar-modal, button {
+  cursor: pointer;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-modal-edicao-cobranca label {
+  text-align: left;
+}
+
+.container-modal-edicao-cobranca input {
+  all: unset;
+
+  padding: 10px 16px;
+
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+
+  text-align: left;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.container-modal-edicao-cobranca input:hover {
+  border: 1px solid #000;
+}
+
+.container-modal-edicao-cobranca input:focus {
+  border: 1px solid #0000ff;
+}
+
+.container-modal-edicao-cobranca textarea {
+  all: unset;
+
+  padding: 10px 16px;
+
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+
+  text-align: left;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+
+  overflow-wrap: break-word;
+  resize: none;
+}
+
+.container-modal-edicao-cobranca textarea:hover {
+  border: 1px solid #000;
+}
+
+.container-modal-edicao-cobranca textarea:focus {
+  border: 1px solid #0000ff;
+}
+
+.container-fields-venc-valor {
+  margin-bottom: 16px;
+
+  display: flex;
+  flex-direction: row;
+
+  gap: 24px;
+}
+
+.container-modal-edicao-cobranca span {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #3F3F55;
+}
+
+.field-checkbox {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.background-group-radio {
+  width: 100%;
+  background-color: #F0F0F5;
+
+  margin-bottom: 8px;
+  padding: 12px 16px;
+
+  border-radius: 10px;
+
+  text-align: left;
+}
+
+.group-radio input{
+  display: none;
+}
+
+.group-radio label{
+font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #3F3F55; 
+}
+
+.group-radio input + label:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #C8C8D7;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 3px;
+}
+
+.group-radio input:checked + label:before {
+  background-color: #0E8750;
+  background-image: url("data:image/svg+xml,%3Csvg width='11' height='9' viewBox='0 0 11 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.72727 1.4541L3.72727 7.99956L1 5.02435' stroke='%23FCFCFC' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  all: unset;
+
+  padding: 4px 90px;
+}
+
+#btn-cancel {
+  background-color: #F8F8F9;
+
+  border: 1px solid #DEDEE9;
+  border-radius: 10px;
+
+  color: #0E8750;
+}
+
+#btn-aply {
+  background-color: #DA0175;
+
+  border-radius: 10px;
+
+  color: #F8F8F9;
+}

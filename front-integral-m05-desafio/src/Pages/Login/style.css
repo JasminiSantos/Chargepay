@@ -1,0 +1,100 @@
+.login__container img {
+    width: 100%;
+    height: 100vh;
+}
+
+.login__container{
+    display: flex;
+    background-color:#F8F8F9;
+}
+
+.login__container-image{
+    width: 35%;
+    height: 100vh;
+    position: relative;
+}
+
+.login__container-image__title {
+    position: absolute;
+    top: 10%;
+    padding: 0 40px 0 40px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #034A2A;
+}
+
+.login__container-form{
+    width: 65%;
+    height: 100vh;
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__form__title{
+    color: #343447;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.login__container-form__form{
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+
+    width: 50%;
+}
+.email, .password{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: start;
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+
+}
+
+.password__labels span {
+    text-decoration: underline;
+    color:#DA0175;
+
+}
+.password__labels{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.MuiInput-input {
+    color: white;
+}
+
+.form__span-register a {
+    text-decoration: underline;
+    color:#DA0175;
+}
+
+.form__span-register {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+span , a, button {
+    cursor: pointer;
+}
+
+.erro {
+    color: #E70000;
+    background-color: #F8F8F9;
+}

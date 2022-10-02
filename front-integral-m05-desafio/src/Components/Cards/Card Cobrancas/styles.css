@@ -1,0 +1,126 @@
+.container-card-cobrancas {
+  width: 360px;
+  background-color: #FFF;
+
+  padding-bottom: 55px;
+  border-radius: 30px;
+
+  box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+
+  position: relative;
+}
+
+.container-card-cobrancas header {
+  padding: 18px 24px 16px 56px;
+
+  border-bottom: 1px solid #EFF0F6;
+
+  display: flex;
+  justify-content: space-between;
+
+  gap: 37px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #3F3F55;
+}
+
+.container-card-cobrancas h3 {
+  font-size: 18px;
+}
+
+.container-card-cobrancas header span {
+  padding: 2px 15px;
+  border-radius: 8px;
+
+  font-size: 16px;
+}
+
+.container-card-cobrancas .pagas {
+  background-color: #EEF6F6;
+  color: #1FA7AF;
+}
+
+.container-card-cobrancas .vencidas {
+  background-color: #FFEFEF;
+  color: #971D1D;
+}
+
+.container-card-cobrancas .previstas {
+  background-color: #FCF6DC;
+  color: #C5A605;
+}
+
+.container-card-cobrancas a {
+  text-decoration: underline;
+
+  color: #DA0175;
+}
+
+.table-cobrancas-title {
+  padding: 8px 14px 8px 25px;
+  border-bottom: 1px solid #EFF0F6;
+
+  display: flex;
+
+  line-height: 50px;
+
+  gap: 8px;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #3F3F55;
+}
+
+.table-cobrancas-title-cell {
+  text-align: left;
+}
+
+.container-card-cobrancas .table-line {
+  padding: 8px 14px 8px 25px;
+  border-bottom: 1px solid #EFF0F6;
+
+  display: flex;
+
+  line-height: 40px;
+
+  gap: 8px;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6E6E85;
+}
+
+.cliente {
+  width: 108px;
+}
+
+.id {
+  width: 121px;
+}
+
+.valor {
+  width: 76px;
+}
+
+.container-card-cobrancas .line-cell {
+  text-align: left;
+}
+
+.container-card-cobrancas footer {
+  padding: 13px 141px;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+
+  position: absolute;
+  bottom: 5px
+}
+
+.vazio {
+  display: flex;
+  justify-content: center;
+}

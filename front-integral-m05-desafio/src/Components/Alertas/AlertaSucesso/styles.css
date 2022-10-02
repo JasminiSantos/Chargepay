@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.alert__container {
+    background: #C3D4FE;
+    box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    justify-content: space-between;
+
+    padding: 15px 16px;
+    margin-right: 1vw;
+    width: 30vw;
+
+    position: fixed;
+}
+
+.alert__message {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.message__title {
+    color: #243F80;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+
+.alert__close {
+    cursor: pointer;
+}
